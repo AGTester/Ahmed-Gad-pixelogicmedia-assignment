@@ -14,26 +14,32 @@ Note: All fields are mandatory.
 
 ****************************************************************************
 How my solution works:
-⦁	Analysis main required.
-⦁	Check https://www.phptravels.net/register and learn how to sign up an account manually.
-⦁	Write test cases valid or invalid for registration page.
-⦁	Start our automation project  implemented with an object-oriented design to 3 pages and 2 tests
-⦁	Start writing automation script.
-⦁	Run our tests.
-⦁	Test our automation project usability and and check invalid results in console and screenshot folder.
-⦁	Implement HTTP inspectors and save response in console.
-⦁	Implement customized reporting screenshots for failures in screenshots folder.
+1.	Analysis main required.
+2.	Check https://www.phptravels.net/register and learn how to sign up an account manually.
+3.	Write test cases valid or invalid for registration page.
+4.	Start our automation project  implemented with an object-oriented design to 3 pages and 2 tests
+5.	Start writing automation script.
+6.	Run our tests.
+7.	Test our automation project usability and and check invalid results in console and screenshot folder.
+8.	Implement HTTP inspectors and save response in console.
+9.	Implement customized reporting screenshots for failures in screenshots folder.
+
+****************************************************************************
 
 Features:
 1.	Automation project can automate all registration process.
-2.	 Find bugs and reporting it to console and screenshots
-3.	 Check request response in console
+2.	Find bugs and reporting it to console and screenshots
+3.	Check request response in console
 4.	We can track our test process visually in chrome.
 a.	Read every live step in console by EventReporter.Inserting all values of registration form, use submit button.
+
 b.	check successfully moving to registered profile home page
+****************************************************************************
+
 Limitations:
 I think it's better to save the response in external folder I don't have much time for searching about that.
-*************************************************
+
+****************************************************************************
 Test cases:
 1.	Sending Valid values for all Fields 
 2.	Sending Valid values for all Fields except - "First name" Invalid Value: Start with small letter.
